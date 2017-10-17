@@ -8,7 +8,6 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  background-color: blue;
 }
 
 
@@ -31,7 +30,6 @@
 /* Mobile defaults */
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
-  background-color: red;
 }
 
 
@@ -51,11 +49,5 @@
 
   .col-12 {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .quotes {
-    font-size: 100px;
   }
 }

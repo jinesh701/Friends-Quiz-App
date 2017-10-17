@@ -8,10 +8,6 @@ main {
   height: 500px;
 }
 
-header {
-  background-color: yellow;
-}
-
 .banner {
   margin-top: 100px;
 }
@@ -102,6 +98,14 @@ header {
   margin: 0px;
 }
 
+.submit-container {
+  text-align: center;
+}
+
+.next-container {
+  text-align: center;
+}
+
 #submit-btn {
   width: 400px;
 }
@@ -134,7 +138,6 @@ header {
 }
 
 .user-result {
-  width: 1500px;
   margin: auto;
   margin-top: 30px;
   font-size: 2rem;

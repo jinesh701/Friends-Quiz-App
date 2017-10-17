@@ -209,7 +209,7 @@ $(document).ready(function() {
       } else if ((currentScore >= 4) && (currentScore <= 6)) {
         $('.user-result').text("You did a good job, but you could do much better. A few more and you'll be considered a regular at the Central Perk!");
         $('.user-result-img').empty();
-        $('.user-result-img').html("<img src='img/4-6.gif' alt='Chandler and Joey clapping.' style='width: 500px'>");
+        $('.user-result-img').html("<img src='img/4-6.gif' alt='Chandler and Joey clapping.'");
 				$('.user-zero').empty();
 				$('.score-zero').empty();
       } else if ((currentScore >= 1) && (currentScore <= 3)) {
@@ -217,11 +217,11 @@ $(document).ready(function() {
         $('.user-result-img').empty();
 				$('.user-zero').empty();
 				$('.score-zero').empty();
-        $('.user-result-img').html("<img src='img/1-3.gif' alt='Ross rejecting a high-five from Will (Brad Pitt).' style='width: 500px'>");
+        $('.user-result-img').html("<img src='img/1-3.gif' alt='Ross rejecting a high-five from Will (Brad Pitt).'>");
       } else {
         $('.score-zero').html("You scored a: 0/10");
 				$('.user-zero').html("Could you <b>BE</b> any less knowledge about this show?");
-        $('.user-result-img').html("<img src='img/0.gif' alt='Gif of Chandler leaving room in disgust.' style='width: 500px'>");
+        $('.user-result-img').html("<img src='img/0.gif' alt='Gif of Chandler leaving room in disgust.''>");
       }
 
 
