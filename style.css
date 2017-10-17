@@ -147,3 +147,7 @@ main {
 .user-result-img {
   margin-top: 20px;
 }
+
+img {
+  width: 100%;
+}
