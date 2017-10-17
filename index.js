@@ -205,7 +205,7 @@ $(document).ready(function() {
         $('.user-result-img').empty();
         $('.user-zero').empty();
         $('.score-zero').empty();
-        $('.user-result-img').html("<img src='img/7-9.gif' alt='Chandler and Joey pointing enthusiastically.' class='img-responsive'>");
+        $('.user-result-img').html("<img src='img/7-9.gif' alt='Chandler and Joey pointing enthusiastically.'>");
       } else if ((currentScore >= 4) && (currentScore <= 6)) {
         $('.user-result').text("You did a good job, but you could do much better. A few more and you'll be considered a regular at the Central Perk!");
         $('.user-result-img').empty();
