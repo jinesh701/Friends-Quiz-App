@@ -221,7 +221,7 @@ $(document).ready(function() {
       } else {
         $('.score-zero').html("You scored a: 0/10");
 				$('.user-zero').html("Could you <b>BE</b> any less knowledge about this show?");
-        $('.user-result-img').html("<img src='img/0.gif' alt='Gif of Chandler leaving room in disgust.''>");
+        $('.user-result-img').html("<img src='img/0.gif' alt='Gif of Chandler leaving room in disgust.'>");
       }
 
 
