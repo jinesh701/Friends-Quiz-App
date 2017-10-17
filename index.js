@@ -199,17 +199,17 @@ $(document).ready(function() {
       }
       if (currentScore === 10) {
         $('.user-result').text("You have reached Unagi! Congratulations! You're a master of Friends!");
-        $('.user-result-img').html("<img src='img/unagi.gif' alt='Gif of Ross doing Unagi pose.' style='height: 250px'>")
+        $('.user-result-img').html("<img src='img/unagi.gif' alt='Gif of Ross doing Unagi pose.'>")
       } else if ((currentScore >= 7) && (currentScore <= 9)) {
         $('.user-result').text("You watch this show often and are extremely knowledable. You are a regular at the Central Perk! But you haven't achieved Unagi yet.");
         $('.user-result-img').empty();
         $('.user-zero').empty();
         $('.score-zero').empty();
-        $('.user-result-img').html("<img src='img/7-9.gif' alt='Chandler and Joey pointing enthusiastically.' style='height: 250px'>");
+        $('.user-result-img').html("<img src='img/7-9.gif' alt='Chandler and Joey pointing enthusiastically.' class='img-responsive'>");
       } else if ((currentScore >= 4) && (currentScore <= 6)) {
         $('.user-result').text("You did a good job, but you could do much better. A few more and you'll be considered a regular at the Central Perk!");
         $('.user-result-img').empty();
-        $('.user-result-img').html("<img src='img/4-6.gif' alt='Chandler and Joey clapping.'");
+        $('.user-result-img').html("<img src='img/4-6.gif' alt='Chandler and Joey clapping.'>");
         $('.user-zero').empty();
         $('.score-zero').empty();
       } else if ((currentScore >= 1) && (currentScore <= 3)) {
